@@ -29,7 +29,10 @@ def find_the_cheese(array)
   
   array.each do |item|
     for i in [0..cheese_types.length] 
-      item.include?(cheese_types[i])
+      a = item.include?(cheese_types[i])
+      if a == true
+        return cheese_types[i]
+      end
     end
   end
   
