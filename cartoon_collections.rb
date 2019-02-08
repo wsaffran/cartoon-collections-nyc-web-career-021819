@@ -31,7 +31,7 @@ def find_the_cheese(array)
     for i in [0..cheese_types.length] 
       a = item.include?(cheese_types[i])
       if a == true
-        return cheese_types[i]
+        return cheese_types[i].join
       end
     end
   end
