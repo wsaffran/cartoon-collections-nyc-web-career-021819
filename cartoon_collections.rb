@@ -29,9 +29,8 @@ def find_the_cheese(array)
   
   for i in [0..cheese_types.length-1]
     if array.include?(cheese_types[i])
-      cheese_types[i].join
+      return cheese_types[i]
     end
   end
-  return cheese_types[0]
   
 end
