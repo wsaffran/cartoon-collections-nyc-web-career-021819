@@ -29,7 +29,7 @@ def find_the_cheese(array)
   
   for i in [0..cheese_types.length-1]
     if array.include?(cheese_types[i])
-      return cheese_types[i].join
+      cheese_types[i].join
     end
   end
   
