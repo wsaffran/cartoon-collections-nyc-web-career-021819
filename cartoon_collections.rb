@@ -14,7 +14,7 @@ def summon_captain_planet(planteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  false
+  truth = false
   calls.each do |x|
     if x.length > 4
       true
