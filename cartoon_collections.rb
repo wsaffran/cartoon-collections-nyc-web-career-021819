@@ -32,6 +32,6 @@ def find_the_cheese(array)
       cheese_types[i].join
     end
   end
-  return cheese_types[0].join
+  return cheese_types[0]
   
 end
