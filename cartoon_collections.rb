@@ -29,7 +29,7 @@ def find_the_cheese(array)
   
   array.each_with_index do |x, i|
     if x.include?(cheese_types)
-      x
+      x.join
     end
   end
   
