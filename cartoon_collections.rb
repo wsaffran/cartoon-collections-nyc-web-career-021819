@@ -14,10 +14,11 @@ def summon_captain_planet(planteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  calls.map do |x|
-    x.length
+  array = []
+  calls.each do |x|
+    array << x.length
   end
-  calls.include(4)
+  array.include(4)
 end
 
 def find_the_cheese# code an argument here
